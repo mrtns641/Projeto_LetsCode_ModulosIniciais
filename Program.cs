@@ -11,7 +11,7 @@ namespace ModulosIniciais
             //Console.WriteLine(MensagemSistema);
 
             //Menu();
-            BoasVindas.MensagemBoasVindas();
+            //BoasVindas.MensagemBoasVindas();
             Menu menu = new Menu();
             menu.MenuCalc();
 
@@ -20,10 +20,9 @@ namespace ModulosIniciais
             //EstruturaRepeticaoWhile();
             //EstruturaRepeticaoDoWhile();
 
-            EstruturaVetoresMatrizes();
+            //EstruturaVetoresMatrizes();
         
             Calculadora calc = new Calculadora();
-            calc.NumberOne = 10;
             Console.WriteLine(calc.NumberOne);
         }
 
